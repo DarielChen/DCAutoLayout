@@ -14,4 +14,4 @@ xcode_sdk: iphonesimulator
 #   - carthage archive $FRAMEWORK_NAME
 
 script:
-    - xcodebuild -project DCAutoLayoutDemo.xcodeproj -scheme DCAutoLayoutDemoTests -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone X,OS=11.4' build test
+    - xcodebuild -project DCAutoLayoutDemo.xcodeproj -scheme DCAutoLayoutDemoTests -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone X,OS=11.4' -UseModernBuildSystem=NO build test
