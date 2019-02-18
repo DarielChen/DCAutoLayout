@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		15D3F27F221A5E8300BD13F2 /* DCAutoLayout.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15D3F27E221A5E8200BD13F2 /* DCAutoLayout.framework */; };
-		15D3F287221A6BB100BD13F2 /* DCAutoLayoutDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15D3F286221A6BB100BD13F2 /* DCAutoLayoutDemoTests.swift */; };
+		15D3F291221A7D7500BD13F2 /* DCAutoLayoutDemoTests.xctest in Resources */ = {isa = PBXBuildFile; fileRef = 15D3F284221A6BB100BD13F2 /* DCAutoLayoutDemoTests.xctest */; };
+		15D3F29C221A7EAE00BD13F2 /* DCAutoLayout.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15D3F29B221A7E9E00BD13F2 /* DCAutoLayout.framework */; };
 		15E93E2D22169887000A29CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E93E2C22169887000A29CC /* AppDelegate.swift */; };
 		15E93E2F22169887000A29CC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E93E2E22169887000A29CC /* ViewController.swift */; };
 		15E93E3222169887000A29CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15E93E3022169887000A29CC /* Main.storyboard */; };
@@ -25,13 +25,21 @@
 			remoteGlobalIDString = 15E93E2822169887000A29CC;
 			remoteInfo = DCAutoLayoutDemo;
 		};
+		15D3F29A221A7E9E00BD13F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 15D3F296221A7E9E00BD13F2 /* DCAutoLayout.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 15E93E8C22169C47000A29CC;
+			remoteInfo = DCAutoLayout;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		15D3F27E221A5E8200BD13F2 /* DCAutoLayout.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DCAutoLayout.framework; sourceTree = "<group>"; };
 		15D3F284221A6BB100BD13F2 /* DCAutoLayoutDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DCAutoLayoutDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		15D3F286221A6BB100BD13F2 /* DCAutoLayoutDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DCAutoLayoutDemoTests.swift; sourceTree = "<group>"; };
 		15D3F288221A6BB100BD13F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15D3F294221A7E6F00BD13F2 /* DCAutoLayout.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DCAutoLayout.framework; path = Carthage/Build/iOS/DCAutoLayout.framework; sourceTree = "<group>"; };
+		15D3F296221A7E9E00BD13F2 /* DCAutoLayout.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = DCAutoLayout.xcodeproj; path = DCAutoLayout/DCAutoLayout.xcodeproj; sourceTree = SOURCE_ROOT; };
 		15E93E2922169887000A29CC /* DCAutoLayoutDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DCAutoLayoutDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		15E93E2C22169887000A29CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		15E93E2E22169887000A29CC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,7 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				15D3F27F221A5E8300BD13F2 /* DCAutoLayout.framework in Frameworks */,
+				15D3F29C221A7EAE00BD13F2 /* DCAutoLayout.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,10 +78,17 @@
 			path = DCAutoLayoutDemoTests;
 			sourceTree = "<group>";
 		};
+		15D3F297221A7E9E00BD13F2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				15D3F29B221A7E9E00BD13F2 /* DCAutoLayout.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		15E93E2022169886000A29CC = {
 			isa = PBXGroup;
 			children = (
-				15D3F27E221A5E8200BD13F2 /* DCAutoLayout.framework */,
 				15E93E2B22169887000A29CC /* DCAutoLayoutDemo */,
 				15D3F285221A6BB100BD13F2 /* DCAutoLayoutDemoTests */,
 				15E93E2A22169887000A29CC /* Products */,
@@ -93,6 +108,7 @@
 		15E93E2B22169887000A29CC /* DCAutoLayoutDemo */ = {
 			isa = PBXGroup;
 			children = (
+				15D3F296221A7E9E00BD13F2 /* DCAutoLayout.xcodeproj */,
 				15E93E2C22169887000A29CC /* AppDelegate.swift */,
 				15E93E2E22169887000A29CC /* ViewController.swift */,
 				15E93E3022169887000A29CC /* Main.storyboard */,
@@ -107,6 +123,7 @@
 		15E93E8022169B3F000A29CC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				15D3F294221A7E6F00BD13F2 /* DCAutoLayout.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -179,6 +196,12 @@
 			mainGroup = 15E93E2022169886000A29CC;
 			productRefGroup = 15E93E2A22169887000A29CC /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 15D3F297221A7E9E00BD13F2 /* Products */;
+					ProjectRef = 15D3F296221A7E9E00BD13F2 /* DCAutoLayout.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				15E93E2822169887000A29CC /* DCAutoLayoutDemo */,
@@ -187,11 +210,22 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		15D3F29B221A7E9E00BD13F2 /* DCAutoLayout.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = DCAutoLayout.framework;
+			remoteRef = 15D3F29A221A7E9E00BD13F2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		15D3F282221A6BB100BD13F2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15D3F291221A7D7500BD13F2 /* DCAutoLayoutDemoTests.xctest in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,7 +246,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				15D3F287221A6BB100BD13F2 /* DCAutoLayoutDemoTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,6 +295,10 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GFG94CPZ5N;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = DCAutoLayoutDemoTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -283,6 +320,10 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GFG94CPZ5N;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = DCAutoLayoutDemoTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -423,6 +464,8 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/DCAutoLayoutDemo",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = DCAutoLayoutDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -445,6 +488,8 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/DCAutoLayoutDemo",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = DCAutoLayoutDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
