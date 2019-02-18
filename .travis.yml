@@ -4,14 +4,14 @@ xcode_project: DCAutoLayoutDemo.xcodeproj
 xcode_scheme: DCAutoLayoutDemoTests
 xcode_sdk: iphonesimulator
 
+# xcode_workspace: DCAutoLayout
+# before_install:
+#   - xcodebuild -showsdks
+#   - brew update
+#   - brew outdated carthage || brew upgrade carthage
+# before_deploy:
+#   - carthage build --no-skip-current
+#   - carthage archive $FRAMEWORK_NAME
 
-xcode_workspace: DCAutoLayout
-before_install:
-  - xcodebuild -showsdks
-  - brew update
-  - brew outdated carthage || brew upgrade carthage
-before_deploy:
-  - carthage build --no-skip-current
-  - carthage archive $FRAMEWORK_NAME
 script:
     - xcodebuild -project DCAutoLayoutDemo.xcodeproj -scheme DCAutoLayoutDemoTests -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone X,OS=11.4' build test
