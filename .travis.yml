@@ -1,7 +1,7 @@
 language: swift
 osx_image: xcode10.1
 xcode_project: ./DCAutoLayoutDemo/DCAutoLayoutDemo.xcodeproj
-xcode_scheme: DCAutoLayoutDemo
+xcode_scheme: DCAutoLayoutDemoTests
 xcode_sdk: iphonesimulator
 
 

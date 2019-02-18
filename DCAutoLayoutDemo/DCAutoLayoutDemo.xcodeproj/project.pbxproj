@@ -7,16 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		15D3F27F221A5E8300BD13F2 /* DCAutoLayout.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15D3F27E221A5E8200BD13F2 /* DCAutoLayout.framework */; };
+		15D3F287221A6BB100BD13F2 /* DCAutoLayoutDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15D3F286221A6BB100BD13F2 /* DCAutoLayoutDemoTests.swift */; };
 		15E93E2D22169887000A29CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E93E2C22169887000A29CC /* AppDelegate.swift */; };
 		15E93E2F22169887000A29CC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E93E2E22169887000A29CC /* ViewController.swift */; };
 		15E93E3222169887000A29CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15E93E3022169887000A29CC /* Main.storyboard */; };
 		15E93E3422169887000A29CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15E93E3322169887000A29CC /* Assets.xcassets */; };
 		15E93E3722169887000A29CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15E93E3522169887000A29CC /* LaunchScreen.storyboard */; };
 		15E93E7F2216996C000A29CC /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E93E7D2216996C000A29CC /* UIColor+Extension.swift */; };
-		15E93EA422169C80000A29CC /* DCAutoLayout.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15E93EA322169C80000A29CC /* DCAutoLayout.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		15D3F289221A6BB100BD13F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 15E93E2122169886000A29CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 15E93E2822169887000A29CC;
+			remoteInfo = DCAutoLayoutDemo;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		15D3F27E221A5E8200BD13F2 /* DCAutoLayout.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DCAutoLayout.framework; sourceTree = "<group>"; };
+		15D3F284221A6BB100BD13F2 /* DCAutoLayoutDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DCAutoLayoutDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		15D3F286221A6BB100BD13F2 /* DCAutoLayoutDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DCAutoLayoutDemoTests.swift; sourceTree = "<group>"; };
+		15D3F288221A6BB100BD13F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		15E93E2922169887000A29CC /* DCAutoLayoutDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DCAutoLayoutDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		15E93E2C22169887000A29CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		15E93E2E22169887000A29CC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -25,26 +40,42 @@
 		15E93E3622169887000A29CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		15E93E3822169887000A29CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		15E93E7D2216996C000A29CC /* UIColor+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
-		15E93EA322169C80000A29CC /* DCAutoLayout.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DCAutoLayout.framework; path = "../../../Library/Developer/Xcode/DerivedData/DCAutoLayout-gxccoeadnmtirzcxotlbzmknwizy/Build/Products/Debug-iphonesimulator/DCAutoLayout.framework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		15D3F281221A6BB100BD13F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		15E93E2622169887000A29CC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				15E93EA422169C80000A29CC /* DCAutoLayout.framework in Frameworks */,
+				15D3F27F221A5E8300BD13F2 /* DCAutoLayout.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		15D3F285221A6BB100BD13F2 /* DCAutoLayoutDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				15D3F286221A6BB100BD13F2 /* DCAutoLayoutDemoTests.swift */,
+				15D3F288221A6BB100BD13F2 /* Info.plist */,
+			);
+			path = DCAutoLayoutDemoTests;
+			sourceTree = "<group>";
+		};
 		15E93E2022169886000A29CC = {
 			isa = PBXGroup;
 			children = (
-				15E93EA322169C80000A29CC /* DCAutoLayout.framework */,
+				15D3F27E221A5E8200BD13F2 /* DCAutoLayout.framework */,
 				15E93E2B22169887000A29CC /* DCAutoLayoutDemo */,
+				15D3F285221A6BB100BD13F2 /* DCAutoLayoutDemoTests */,
 				15E93E2A22169887000A29CC /* Products */,
 				15E93E8022169B3F000A29CC /* Frameworks */,
 			);
@@ -54,6 +85,7 @@
 			isa = PBXGroup;
 			children = (
 				15E93E2922169887000A29CC /* DCAutoLayoutDemo.app */,
+				15D3F284221A6BB100BD13F2 /* DCAutoLayoutDemoTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -82,6 +114,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		15D3F283221A6BB100BD13F2 /* DCAutoLayoutDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15D3F28B221A6BB100BD13F2 /* Build configuration list for PBXNativeTarget "DCAutoLayoutDemoTests" */;
+			buildPhases = (
+				15D3F280221A6BB100BD13F2 /* Sources */,
+				15D3F281221A6BB100BD13F2 /* Frameworks */,
+				15D3F282221A6BB100BD13F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				15D3F28A221A6BB100BD13F2 /* PBXTargetDependency */,
+			);
+			name = DCAutoLayoutDemoTests;
+			productName = DCAutoLayoutDemoTests;
+			productReference = 15D3F284221A6BB100BD13F2 /* DCAutoLayoutDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		15E93E2822169887000A29CC /* DCAutoLayoutDemo */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 15E93E3B22169887000A29CC /* Build configuration list for PBXNativeTarget "DCAutoLayoutDemo" */;
@@ -109,6 +159,10 @@
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = Dariel;
 				TargetAttributes = {
+					15D3F283221A6BB100BD13F2 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 15E93E2822169887000A29CC;
+					};
 					15E93E2822169887000A29CC = {
 						CreatedOnToolsVersion = 10.1;
 					};
@@ -128,11 +182,19 @@
 			projectRoot = "";
 			targets = (
 				15E93E2822169887000A29CC /* DCAutoLayoutDemo */,
+				15D3F283221A6BB100BD13F2 /* DCAutoLayoutDemoTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		15D3F282221A6BB100BD13F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		15E93E2722169887000A29CC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -146,6 +208,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		15D3F280221A6BB100BD13F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15D3F287221A6BB100BD13F2 /* DCAutoLayoutDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		15E93E2522169887000A29CC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -157,6 +227,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		15D3F28A221A6BB100BD13F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 15E93E2822169887000A29CC /* DCAutoLayoutDemo */;
+			targetProxy = 15D3F289221A6BB100BD13F2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		15E93E3022169887000A29CC /* Main.storyboard */ = {
@@ -178,6 +256,48 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		15D3F28C221A6BB100BD13F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GFG94CPZ5N;
+				INFOPLIST_FILE = DCAutoLayoutDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.darielchen.DCAutoLayoutDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DCAutoLayoutDemo.app/DCAutoLayoutDemo";
+			};
+			name = Debug;
+		};
+		15D3F28D221A6BB100BD13F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GFG94CPZ5N;
+				INFOPLIST_FILE = DCAutoLayoutDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.darielchen.DCAutoLayoutDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DCAutoLayoutDemo.app/DCAutoLayoutDemo";
+			};
+			name = Release;
+		};
 		15E93E3922169887000A29CC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -300,6 +420,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GFG94CPZ5N;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = DCAutoLayoutDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -318,6 +442,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GFG94CPZ5N;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = DCAutoLayoutDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -333,6 +461,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		15D3F28B221A6BB100BD13F2 /* Build configuration list for PBXNativeTarget "DCAutoLayoutDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15D3F28C221A6BB100BD13F2 /* Debug */,
+				15D3F28D221A6BB100BD13F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		15E93E2422169886000A29CC /* Build configuration list for PBXProject "DCAutoLayoutDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
