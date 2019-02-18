@@ -20,20 +20,6 @@
                ReferencedContainer = "container:DCAutoLayoutDemo.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "NO"
-            buildForArchiving = "NO"
-            buildForAnalyzing = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "15D3F2A3221A837A00BD13F2"
-               BuildableName = "DCAutoLayoutDemoTests.xctest"
-               BlueprintName = "DCAutoLayoutDemoTests"
-               ReferencedContainer = "container:DCAutoLayoutDemo.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction
@@ -42,16 +28,6 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "15D3F2A3221A837A00BD13F2"
-               BuildableName = "DCAutoLayoutDemoTests.xctest"
-               BlueprintName = "DCAutoLayoutDemoTests"
-               ReferencedContainer = "container:DCAutoLayoutDemo.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
