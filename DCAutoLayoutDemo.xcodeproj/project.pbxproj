@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		15D3F291221A7D7500BD13F2 /* DCAutoLayoutDemoTests.xctest in Resources */ = {isa = PBXBuildFile; fileRef = 15D3F284221A6BB100BD13F2 /* DCAutoLayoutDemoTests.xctest */; };
 		15D3F29C221A7EAE00BD13F2 /* DCAutoLayout.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15D3F29B221A7E9E00BD13F2 /* DCAutoLayout.framework */; };
+		15D3F2AF221A83AD00BD13F2 /* DCAutoLayoutDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15D3F2AE221A83AD00BD13F2 /* DCAutoLayoutDemoTests.swift */; };
 		15E93E2D22169887000A29CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E93E2C22169887000A29CC /* AppDelegate.swift */; };
 		15E93E2F22169887000A29CC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E93E2E22169887000A29CC /* ViewController.swift */; };
 		15E93E3222169887000A29CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15E93E3022169887000A29CC /* Main.storyboard */; };
@@ -18,13 +18,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		15D3F289221A6BB100BD13F2 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 15E93E2122169886000A29CC /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 15E93E2822169887000A29CC;
-			remoteInfo = DCAutoLayoutDemo;
-		};
 		15D3F29A221A7E9E00BD13F2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 15D3F296221A7E9E00BD13F2 /* DCAutoLayout.xcodeproj */;
@@ -32,14 +25,21 @@
 			remoteGlobalIDString = 15E93E8C22169C47000A29CC;
 			remoteInfo = DCAutoLayout;
 		};
+		15D3F2A9221A837A00BD13F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 15E93E2122169886000A29CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 15E93E2822169887000A29CC;
+			remoteInfo = DCAutoLayoutDemo;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		15D3F284221A6BB100BD13F2 /* DCAutoLayoutDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DCAutoLayoutDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		15D3F286221A6BB100BD13F2 /* DCAutoLayoutDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DCAutoLayoutDemoTests.swift; sourceTree = "<group>"; };
-		15D3F288221A6BB100BD13F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		15D3F294221A7E6F00BD13F2 /* DCAutoLayout.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DCAutoLayout.framework; path = Carthage/Build/iOS/DCAutoLayout.framework; sourceTree = "<group>"; };
 		15D3F296221A7E9E00BD13F2 /* DCAutoLayout.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = DCAutoLayout.xcodeproj; path = DCAutoLayout/DCAutoLayout.xcodeproj; sourceTree = SOURCE_ROOT; };
+		15D3F2A4221A837A00BD13F2 /* DCAutoLayoutDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DCAutoLayoutDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		15D3F2A8221A837A00BD13F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15D3F2AE221A83AD00BD13F2 /* DCAutoLayoutDemoTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DCAutoLayoutDemoTests.swift; sourceTree = "<group>"; };
 		15E93E2922169887000A29CC /* DCAutoLayoutDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DCAutoLayoutDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		15E93E2C22169887000A29CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		15E93E2E22169887000A29CC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -51,7 +51,7 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		15D3F281221A6BB100BD13F2 /* Frameworks */ = {
+		15D3F2A1221A837A00BD13F2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -69,15 +69,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		15D3F285221A6BB100BD13F2 /* DCAutoLayoutDemoTests */ = {
-			isa = PBXGroup;
-			children = (
-				15D3F286221A6BB100BD13F2 /* DCAutoLayoutDemoTests.swift */,
-				15D3F288221A6BB100BD13F2 /* Info.plist */,
-			);
-			path = DCAutoLayoutDemoTests;
-			sourceTree = "<group>";
-		};
 		15D3F297221A7E9E00BD13F2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -86,11 +77,20 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		15D3F2A5221A837A00BD13F2 /* DCAutoLayoutDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				15D3F2AE221A83AD00BD13F2 /* DCAutoLayoutDemoTests.swift */,
+				15D3F2A8221A837A00BD13F2 /* Info.plist */,
+			);
+			path = DCAutoLayoutDemoTests;
+			sourceTree = "<group>";
+		};
 		15E93E2022169886000A29CC = {
 			isa = PBXGroup;
 			children = (
 				15E93E2B22169887000A29CC /* DCAutoLayoutDemo */,
-				15D3F285221A6BB100BD13F2 /* DCAutoLayoutDemoTests */,
+				15D3F2A5221A837A00BD13F2 /* DCAutoLayoutDemoTests */,
 				15E93E2A22169887000A29CC /* Products */,
 				15E93E8022169B3F000A29CC /* Frameworks */,
 			);
@@ -100,7 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				15E93E2922169887000A29CC /* DCAutoLayoutDemo.app */,
-				15D3F284221A6BB100BD13F2 /* DCAutoLayoutDemoTests.xctest */,
+				15D3F2A4221A837A00BD13F2 /* DCAutoLayoutDemoTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -131,22 +131,22 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		15D3F283221A6BB100BD13F2 /* DCAutoLayoutDemoTests */ = {
+		15D3F2A3221A837A00BD13F2 /* DCAutoLayoutDemoTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 15D3F28B221A6BB100BD13F2 /* Build configuration list for PBXNativeTarget "DCAutoLayoutDemoTests" */;
+			buildConfigurationList = 15D3F2AB221A837A00BD13F2 /* Build configuration list for PBXNativeTarget "DCAutoLayoutDemoTests" */;
 			buildPhases = (
-				15D3F280221A6BB100BD13F2 /* Sources */,
-				15D3F281221A6BB100BD13F2 /* Frameworks */,
-				15D3F282221A6BB100BD13F2 /* Resources */,
+				15D3F2A0221A837A00BD13F2 /* Sources */,
+				15D3F2A1221A837A00BD13F2 /* Frameworks */,
+				15D3F2A2221A837A00BD13F2 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				15D3F28A221A6BB100BD13F2 /* PBXTargetDependency */,
+				15D3F2AA221A837A00BD13F2 /* PBXTargetDependency */,
 			);
 			name = DCAutoLayoutDemoTests;
 			productName = DCAutoLayoutDemoTests;
-			productReference = 15D3F284221A6BB100BD13F2 /* DCAutoLayoutDemoTests.xctest */;
+			productReference = 15D3F2A4221A837A00BD13F2 /* DCAutoLayoutDemoTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		15E93E2822169887000A29CC /* DCAutoLayoutDemo */ = {
@@ -176,7 +176,7 @@
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = Dariel;
 				TargetAttributes = {
-					15D3F283221A6BB100BD13F2 = {
+					15D3F2A3221A837A00BD13F2 = {
 						CreatedOnToolsVersion = 10.1;
 						TestTargetID = 15E93E2822169887000A29CC;
 					};
@@ -205,7 +205,7 @@
 			projectRoot = "";
 			targets = (
 				15E93E2822169887000A29CC /* DCAutoLayoutDemo */,
-				15D3F283221A6BB100BD13F2 /* DCAutoLayoutDemoTests */,
+				15D3F2A3221A837A00BD13F2 /* DCAutoLayoutDemoTests */,
 			);
 		};
 /* End PBXProject section */
@@ -221,11 +221,10 @@
 /* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
-		15D3F282221A6BB100BD13F2 /* Resources */ = {
+		15D3F2A2221A837A00BD13F2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				15D3F291221A7D7500BD13F2 /* DCAutoLayoutDemoTests.xctest in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,10 +241,11 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		15D3F280221A6BB100BD13F2 /* Sources */ = {
+		15D3F2A0221A837A00BD13F2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15D3F2AF221A83AD00BD13F2 /* DCAutoLayoutDemoTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,10 +262,10 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		15D3F28A221A6BB100BD13F2 /* PBXTargetDependency */ = {
+		15D3F2AA221A837A00BD13F2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 15E93E2822169887000A29CC /* DCAutoLayoutDemo */;
-			targetProxy = 15D3F289221A6BB100BD13F2 /* PBXContainerItemProxy */;
+			targetProxy = 15D3F2A9221A837A00BD13F2 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -289,16 +289,12 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		15D3F28C221A6BB100BD13F2 /* Debug */ = {
+		15D3F2AC221A837A00BD13F2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GFG94CPZ5N;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)",
-				);
 				INFOPLIST_FILE = DCAutoLayoutDemoTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -314,16 +310,12 @@
 			};
 			name = Debug;
 		};
-		15D3F28D221A6BB100BD13F2 /* Release */ = {
+		15D3F2AD221A837A00BD13F2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GFG94CPZ5N;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)",
-				);
 				INFOPLIST_FILE = DCAutoLayoutDemoTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -506,11 +498,11 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		15D3F28B221A6BB100BD13F2 /* Build configuration list for PBXNativeTarget "DCAutoLayoutDemoTests" */ = {
+		15D3F2AB221A837A00BD13F2 /* Build configuration list for PBXNativeTarget "DCAutoLayoutDemoTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				15D3F28C221A6BB100BD13F2 /* Debug */,
-				15D3F28D221A6BB100BD13F2 /* Release */,
+				15D3F2AC221A837A00BD13F2 /* Debug */,
+				15D3F2AD221A837A00BD13F2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
