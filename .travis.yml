@@ -14,4 +14,4 @@ xcode_sdk: iphonesimulator
 #   - carthage archive $FRAMEWORK_NAME
 
 script:
-    - xcodebuild -project DCAutoLayoutDemo.xcodeproj -scheme DCAutoLayoutDemoTests -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone X,OS=11.4' -UseModernBuildSystem=NO build test
+    - xcodebuild -workspace DCAutoLayoutDemo.xcworkspace -scheme DCAutoLayoutDemo -sdk iphonesimulator12.1 -destination "platform=iOS Simulator,OS=12.1,name=iPhone Xs Max" -UseModernBuildSystem=NO test | xcpretty --test --color; test ${PIPESTATUS[0]} -eq 0
