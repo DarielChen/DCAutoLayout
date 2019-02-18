@@ -1,8 +1,11 @@
 language: swift
 osx_image: xcode10.1
+xcode_project: ./DCAutoLayoutDemo/DCAutoLayoutDemo.xcodeproj
+xcode_scheme: DCAutoLayoutDemo
+xcode_sdk: iphonesimulator
+
+
 xcode_workspace: DCAutoLayout
-xcode_scheme: DCAutoLayout
-xcode_sdk: iphonesimulator11.3
 before_install:
   - xcodebuild -showsdks
   - brew update
@@ -11,4 +14,4 @@ before_deploy:
   - carthage build --no-skip-current
   - carthage archive $FRAMEWORK_NAME
 script:
-    - xcodebuild clean build -sdk iphonesimulator11.3 -workspace DCAutoLayout.xcworkspace -scheme DCAutoLayout CODE_SIGNING_REQUIRED=NO
+    - xcodebuild -project ./DCAutoLayoutDemo/DCAutoLayoutDemo.xcodeproj -scheme DCAutoLayoutDemo -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone X,OS=11.4' build test
