@@ -95,17 +95,17 @@ class ViewController: UIViewController {
 
 ```swift
 label.layout {
-	$0.topAnchor == view.topAnchor + 20
-	$0.leadingAnchor == view.leadingAnchor + 20
-	$0.trailingAnchor == view.trailingAnchor - 20
-	$0.bottomAnchor == view.bottomAnchor - 20
+    $0.topAnchor == view.topAnchor + 20
+    $0.leadingAnchor == view.leadingAnchor + 20
+    $0.trailingAnchor == view.trailingAnchor - 20
+    $0.bottomAnchor == view.bottomAnchor - 20
 }
 ```
 Or even shorter:
 
 ```
 label.layout {
-	$0 == view.marign(20, 20, 20, 20)            
+    $0 == view.marign(20, 20, 20, 20)            
 }
 ```
 ### 3.`>=`、`<=` represent `greaterThanOrEqual`、`lessThanOrEqual`.
@@ -114,9 +114,9 @@ You can use `>=` or `<=` to change Anchor.
 
 ```swift
 label.layout {
-	$0.centerAnchor == view.centerAnchor
-	$0.widthAnchor == view.bounds.width - 40
-	$0.heightAnchor >= 44
+    $0.centerAnchor == view.centerAnchor
+    $0.widthAnchor == view.bounds.width - 40
+    $0.heightAnchor >= 44
 }
 ```
 
@@ -132,21 +132,21 @@ label.layout {
 #### marign
 ```
 label.layout {
-	$0 == view.marign(20, 20, 20, 20)            
+    $0 == view.marign(20, 20, 20, 20)            
 }
 ```
 #### size
 
 ```swift
 label.layout {
-	$0.sizeAnchor == view.size(100, 44)
+    $0.sizeAnchor == view.size(100, 44)
 }
 ```
 #### center
 
 ```swift
 label.layout {
-	$0.centerAnchor == view.centerAnchor
+    $0.centerAnchor == view.centerAnchor
 }
 ```
 
@@ -156,14 +156,14 @@ label.layout {
 
 ```swift
 label.layout {
-	$0.heightAnchor >= 44
+    $0.heightAnchor >= 44
 }
 ```
 Update constraint.
 
 ```swift
 label.layout {
-	$0.heightAnchor == 88
+    $0.heightAnchor == 88
 }
 ```
 #### reset anchor
@@ -172,8 +172,8 @@ Set heightAnchor after remove heightAnchor.
 
 ```swift
 label.layout {
-	$0.removeAnchor($0.heightAnchor)
-	$0.heightAnchor == 88
+    $0.removeAnchor($0.heightAnchor)
+    $0.heightAnchor == 88
 }
 ```
 
