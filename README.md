@@ -5,7 +5,8 @@
 [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 
 
-![](./Source/demo.gif)
+<img src="./Source/demo.gif" width=500>
+
 
 ## 1. Requirements
 
