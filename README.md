@@ -4,6 +4,9 @@
 [![Cocoapods Compatible](https://img.shields.io/cocoapods/v/DCAutoLayout.svg)](https://cocoapods.org/pods/SnapKit)
 [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 
+
+![](./Source/demo.gif)
+
 ## 1. Requirements
 
 - iOS 9.0+ 
@@ -30,7 +33,7 @@ platform :ios, '10.0'
 use_frameworks!
 
 target '<Your Target Name>' do
-    pod 'DCAutoLayout', '~> 1.0.1'
+    pod 'DCAutoLayout'
 end
 ```
 

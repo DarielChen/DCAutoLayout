@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
 s.name         = "DCAutoLayout"
-s.version      = "1.0.1"
+s.version      = "1.0.2"
 s.summary      = "A Swift Autolayout DSL for iOS"
 s.homepage     = "https://github.com/DarielChen/DCAutoLayout"
 s.license      = "MIT"

@@ -14,6 +14,8 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        navigationItem.title = "DCAutoLayoutDemo"
+        
         view.addSubview(button1)
         view.addSubview(button2)
         
@@ -37,7 +39,7 @@ class ViewController: UIViewController {
             $0.topAnchor == button1.topAnchor
             $0.leadingAnchor == button1.trailingAnchor + 20
             $0.bottomAnchor == button1.bottomAnchor
-            $0.trailingAnchor == view.trailingAnchor - 20
+            $0.trailingAnchor == view.safeAreaTrailingAnchor - 20
         }
         
         UIView.animate(withDuration: 1) {
@@ -52,14 +54,14 @@ class ViewController: UIViewController {
         button1.layout {
             $0.topAnchor == view.safeAreaTopAnchor + 20
             $0.leadingAnchor == view.leadingAnchor + 20
-            $0.trailingAnchor == view.trailingAnchor - 20
+            $0.trailingAnchor == view.safeAreaTrailingAnchor - 20
             $0.heightAnchor == button2.heightAnchor
         }
         
         button2.layout {
             $0.topAnchor == button1.bottomAnchor + 20
             $0.leadingAnchor == view.leadingAnchor + 20
-            $0.trailingAnchor == view.trailingAnchor - 20
+            $0.trailingAnchor == view.safeAreaTrailingAnchor - 20
             $0.bottomAnchor == view.bottomAnchor - 20
         }
         
